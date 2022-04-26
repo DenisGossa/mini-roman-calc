@@ -1,7 +1,6 @@
 package by.doitnow;
 
 import by.doitnow.ownexception.*;
-
 import java.util.Scanner;
 
 public class Main {
@@ -118,6 +117,7 @@ public class Main {
         int result = -100;
         switch (sign) {
             case '+':
+                result = a + b;
                 break;
             case '-':
                 result = a - b;
